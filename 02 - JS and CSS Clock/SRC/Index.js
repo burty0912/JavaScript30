@@ -11,3 +11,7 @@ function setTime() {
     const minutesDegrees = ((minutes / 60) * 360) + 90;
     minuteHand.style.transform = `rotate(${minutesDegrees}deg)`
 }
+
+setInterval(setTime, 1000)
+
+setTime();
