@@ -1,6 +1,3 @@
-const time = new Date();
-const hours = time.getHours();
-const minutes = time.getMinutes();
-const seconds = time.getSeconds();
-
- 
+const secondHand = document.querySelector('.second-hand');
+const hourHand = document.querySelector('.hour-hand');
+const minuteHand = document.querySelector('.minute-hand');
